@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+ 
+    body h1, body h5 {
+      color: #275d38;
+      font-weight: bold;
+    }
+    body p{
+      font-size:15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    th, td {
+      padding: 5px;
+    }
+
+    .ptag {
+      padding: 0 25px;
+      margin: 0 !important;
+      padding-left: 15px;
+    }
+
+    .ptag h2 {
+      font-weight: 500;
+      font-size: 18px;
+      padding: 2px 0;
+    }
+    
+    .faq-header h3 {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 2px 0; /* Adjusted for shorthand padding */
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0 0 0;
+     transition: background-color 0.13s ease;
+}
+.facets-faceted-navigation-item-color-facet-group-expander-icon{
+  padding: 15px; 
+}
+.faq-header h3:hover{
+  background-color:#d6d6d6;
+}
+
+    hr {
+      margin: 5px;
+    }
+
+    img.map {
+      max-width: 700px;
+      height: auto;
+      border: 0;
+      float: right;
+      margin: 5px;
+    }
+
+    .btn-local {
+      padding: 10px 20px;
+      background: #fff;
+      color: #275d38;
+      font-weight: 900;
+      font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 0.9rem !important;
+      border: 1px solid #275d38;
+      border-radius: 2px;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 5px 0;
+    }
+    .blkRow a{
+      color:#000;
+    }
+    .grnRow, .grnRow a {
+      color:#080;
+    } 
+
+    /* Responsive styles */
+    @media only screen and (max-width: 800px) {
+      th, td {
+        font-size: 12px;
+        padding: 5px;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      img.map {
+        display: none;
+      }
+
+      img.map-mobile {
+        width: 100%;
+        height: auto;
+        border: 0;
+        margin: 0 5px 20px 0;
+      }
+
+      .btn-local {
+        padding: 10px 20px;
+        background: #fff;
+        color: #275d38;
+        font-weight: 900;
+        font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.9rem !important;
+        border: 1px solid #275d38;
+        border-radius: 2px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 5px 0 30px;
+      }
+    }
+
+    @media only screen and (min-width: 801px) {
+      img.map {
+        max-width: 650px;
+        height: auto;
+        border: 0;
+        float: right;
+        margin: 5px 5px 5px 20px;
+      }
+
+      img.map-mobile {
+        display: none;
+      }
+
+      .btn-local {
+        padding: 10px 20px;
+        background: #fff;
+        color: #275d38;
+        font-weight: 900;
+        font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.9rem !important;
+        border: 1px solid #275d38;
+        border-radius: 2px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 5px 0 30px;
+      }
+    }
+ 
+  </style>
+</head>
+<body>
+  <div class="ptag">
+    <img class="map" src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_AssetImages/Screenshot 2024-08-06 at 8.53.31 AM.png" alt="UVU campus map">
+    <h1>Contact</h1>
+    <br>
+    
+    <h3>Customer Service</h3>
+    <p>
+      Phone: <a href="tel:8018638641" style="color: #008000;">801-863-8641</a><br>
+      Email: <a href="mailto:store@uvu.edu" style="color: #008000;">store@uvu.edu</a>
+    </p>
+    
+    <h3>Location</h3>
+    <p style="margin-bottom: 0;">
+      The UVU Store is in the Sorensen Student Center on the UVU main campus.<br>
+      <a href="https://maps.app.goo.gl/4fg8AzSnsja91HTP6" target="_blank" rel="noopener noreferrer" style="color: #275d38;">800 West University Parkway Orem, Utah 84058</a>. Campus Room Number: SC-102.
+    </p>
+    <a href="https://maps.app.goo.gl/4fg8AzSnsja91HTP6" class="btn-local" target="_blank" rel="noopener noreferrer" style="color: #275d38;">Find Us</a>
+    <br>
+    <img class="map-mobile" src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_AssetImages/UVUStore-DirectionalMapToStore.png" alt="UVU campus map">
+    <h3>Hours</h3>
+    <p>
+      <strong>Fall and Spring Hours:</strong> Monday - Thursday 7:30 am - 6:00 pm; Fri 7:30 am - 5:00 pm; Closed Saturday<br>
+      CB Scoops: Monday - Friday 8:00 am – 2:00 pm; Closed Saturday
+    </p>
+    <p>
+      <strong>Summer Hours:</strong> Monday - Friday 8:00 am - 5:00 pm; Closed Saturday<br>
+      CB Scoops: Monday - Friday 9:00 am - 2:00 pm; Closed Saturday
+    </p>
+    
+    <br>
+    <!-- Contact drop -->
+    <div class="faq-header"
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq3" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h3>Contact Options</h3>
+    </a></div><br>
+    <div class="collapse" id="faq3">
+      <table>
+        <tbody>
+           <tr class="blkRow">
+            <td><span>Area</span></td>
+            <td><span>Contact</span></td>
+            <td><a>Email</a></td>
+            <td><a>Phone</a></td>
+          </tr>
+        
+           <tr class="grnRow">
+            <td><span>Art &amp; School Supplies</span></td>
+            <td><span>Alicia Jacobs</span></td>
+            <td><a href="mailto:AJacobs@uvu.edu">AJacobs@uvu.edu</a></td>
+            <td><a href="tel:8018637338">801-863-7338</a></td>
+          </tr>
+        
+         <tr class="blkRow">
+           <td><span>Clothing &amp; Merchandise </span></td>
+            <td><span>Nancy Heslington</span></td>
+             <td><a href="mailto:heslinan@uvu.edu">heslinan@uvu.edu</a></td>
+            <td><a href="tel:8018637340">801-863-7340</a></td>
+          </tr>
+          <tr>
+        
+           <tr class="grnRow">
+           <td><span>Computers &amp; Technology</span></td>
+            <td><span>Andrew Cromar</span></td>
+              <td><a href="mailto:acromar@uvu.edu">acromar@uvu.edu</a></td>
+             <td><a href="tel:8018638696">801-863-8696</a></td>
+          </tr>
+          <tr>
+        
+         <tr class="blkRow">
+           <td><span>Scoops &amp; Convenience Store</span></td>
+            <td><span>Leslie Limb</span></td>
+             <td><a href="mailto:Leslie.Limb@uvu.edu">Leslie.Limb@uvu.edu</a></td>
+            <td><a href="tel:8018638513">801-863-8513</a></td>
+          </tr>
+          <tr>
+            
+          <tr class="grnRow">
+           <td><span>Sponsered Accounts</span></td>
+            <td><span>Leslie Limb</span></td>
+             <td><a href="mailto:Leslie.Limb@uvu.edu">Leslie.Limb@uvu.edu</a></td>
+            <td><a href="tel:8018638513">801-863-8513</a></td>
+          </tr>
+          <tr>
+            
+         <tr class="blkRow">
+           <td><span>Starbucks</span></td>
+            <td><span>UVU Dining Services</span></td>
+             <td><a href="mailto:diningservices@uvu.edu">diningservices@uvu.edu</a></td>
+            <td><a href="tel:8018638664">801-863-8664</a></td>
+          </tr>
+          <tr>  
+          
+       <tr class="grnRow">
+           <td><span>Store Director</span></td>
+            <td><span>Louise Bridge</span></td>
+             <td><a href="mailto:Lbridge@uvu.edu">Lbridge@uvu.edu</a></td>
+            <td><ahref="tel:8018638620">801-863-8620</a></td>
+          </tr>
+          <tr>          
+        
+     <tr class="blkRow">
+           <td><span>Textbooks (Students)</span></td>
+            <td><span>UVU Store</span></td>
+             <td><a href="mailto:store@uvu.edu">store@uvu.edu</a></td>
+            <td><a href="tel:8018638641">801-863-8641</a></td>
+          </tr>
+          <tr>           
+        
+     <tr class="grnRow">
+           <td><span>Textbooks Adoptions</span></td>
+            <td><span>Parker Smith</span></td>
+             <td><a href="mailto:parkers@uvu.edu">parkers@uvu.edu</a></td>
+            <td><a href="tel:8018637347">801-863-7347</a></td>
+          </tr>
+          <tr>    
+          
+    <tr class="blkRow">
+           <td><span>Wolverine Access</span></td>
+            <td><span>UVU Store</span></td>
+             <td><a href="mailto:store@uvu.edu">store@uvu.edu</a></td>
+            <td><a href="tel:8018638641">801-863-8641</a></td>
+          </tr>
+          <tr>         
+  
+   <tr class="grnRow">
+           <td><span>Wolverine Tech</span></td>
+            <td><span>UVU Store</span></td>
+             <td><a href="mailto:store@uvu.edu">store@uvu.edu</a></td>
+            <td><a href="tel:8018637347">801-863-6233</a></td>
+          </tr>
+          <tr>         
+  
+        </tbody>
+      </table>
+    </div>
+    
+  </div>
+</body>
+</html>
