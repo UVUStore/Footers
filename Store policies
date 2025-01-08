@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+ 
+    
+
+body h1 {
+    color: #275d38;
+    font-weight: bold;
+}
+
+body h3,
+body h5 {
+    color: #275d38;
+}
+body p{
+      font-size:15px;
+    }
+
+.ptag h2 {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 2px 0; /* Adjusted for shorthand padding */
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0 0 0;
+     transition: background-color 0.13s ease;
+}
+.facets-faceted-navigation-item-color-facet-group-expander-icon{
+  padding: 15px; 
+}
+.ptag h2:hover{
+  background-color:#d6d6d6;
+}
+
+body h1.return {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.collapsed {
+    padding: 0; /* Fixed the padding property */
+}
+.inner-text {
+  margin: 0 20px;
+}
+
+.standard ul {
+    margin: 0 !important;
+}
+
+.ptag {
+    padding: 0 25px;
+    margin: 0  !important;
+}
+
+.ptag li {
+    margin: 0 !important;
+    list-style-type: disc !important;
+}
+
+.fine h6 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.column1 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .column1 {
+        margin: 10px 0;
+        width: 100%; /* Make sure columns take full width */
+    }
+}
+  </style>
+  
+  </head>
+  <body>
+    
+      <div class="ptag">
+    <h1>UVU STORE POLICIES</h1>
+    
+       <!-- returns -->
+   <div class="faq-header">
+      <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq6" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>RETURN POLICIES</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq6"> 
+     
+       <br>
+      <h5>GENERAL RETURN POLICIES</h5>
+      <ul>
+      <li>RECEIPTS ARE REQUIRED FOR ALL RETURNS.</li>
+      <li>Wolverine Tech and the UVU Store reserve the right to refuse any return of any merchandise that is not in resalable condition.</li>
+      <li>All items sold at a clearance price (red price) tag are not returnable.</li>
+      </ul>
+      <br>
+  
+      <h5>APPAREL / GIFT / BACKPACK</h5>
+
+       <ul>
+      <li>Returns must be made within 7 days of purchase.</li>
+      <li>Only items that are unworn, unwashed, and unused, with tags attached, can be exchanged or returned with original sales receipts.</li>
+    </ul>
+     <br>
+  
+      <h5>COMPUTERS, TABLETS, APPLE WATCHES</h5>
+
+         <ul>
+     <li>A cash register receipt is required for all returns or exchanges.</li>
+      <li>Unopened merchandise with factory packaging may be returned for full credit within 7 days of the sale date.</li>
+      <li>Configure-to-Order (Custom Computers) are not eligible for returns.</li>
+      <li>Opened merchandise will have a 15% restocking fee.</li>
+      <li>All returns or exchanges must have all original packaging, be without any cosmetic damage, be able to power on at the time of return, and must be able to perform a factory reset. Any merchandise that cannot meet these conditions will be refused.</li>
+      <li>Any product that has been discontinued by the manufacturer is not returnable.</li>
+      <li>Wolverine Tech and the UVU Store reserve the right to refuse any return of any merchandise that is not in resalable condition.</li>
+    </ul>
+    
+    <br>
+  <h5>DOVER CLASSIC</h5>
+             <p>No returns.</p>
+
+      <h5>ELECTRONICS</h5>
+ 
+        <ul>
+     <li>A cash register receipt is required for all returns or exchanges.</li>
+      <li>Original packaging is required for all returns. Any item that has been opened will have up to a 15% restocking fee depending on the packing condition.</li>
+      <li>We do not accept any returns for opened-in-ear earbud headphones.</li>
+      <li>We do not accept returns on opened calculators.</li>
+      <li>Refunds of electronic items sold one (1) week prior to the refund date need to be approved by Educational Supplies Department personnel.</li>
+    </ul>
+  
+   <br>
+   
+    <h5>GENERAL READING</h5>
+             <p>Returns must be made within 7 days of purchase with the original sales receipt.</p>
+             
+      <h5>GRADUATION</5>
+       <p>Graduation Merchandise is non-returnable.</p> 
+       
+      <h5>REFERENCE BOOKS, BAR CHARTS, BARGAIN BOOKS</h5>
+             <p>No returns.</p>
+   
+      <h5>SCHOOL / ART SUPPLIES</h5>
+   
+       <ul>
+     <li>Returns must be made within 7 days after purchase with the original sales receipt.</li>
+      <li>Merchandise must be in new condition.&nbsp; </li>
+      </ul> 
+      
+      </div>  <!-- end of returns -->
+       
+       
+       
+           <!-- shipping -->
+             <div class="faq-header">
+        <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq4" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>SHIPPING</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq4">
+      <ul class="standard">
+     <li>Orders shipped within the Continental U.S. are shipped by Federal Express Ground and are charged a flat rate of $10.99.</li>
+      <li>Orders shipped to Hawaii, Alaska, Puerto Rico, and internationally are based on FedEx rates.</li>
+      <li>Please allow 2 business days for processing your orders and 7 to 10 days for your order to be shipped.</li>
+      <li>Orders will not be processed during UVU holidays (see <a href="https://www.uvu.edu/schedule/" target="_blank" rel="noopener noreferrer" style="color:#275d38;">uvu.edu/schedule/</a> for specific dates).</li>
+    </ul> </div>
+    <!-- end of shipping -->
+    
+       
+          <!-- free shipping -->
+      <div class="faq-header">
+      <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq5" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>FREE SHIPPING</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq5">
+       <ul>
+     <li>Free standard shipping on orders $75 or more.</li>
+      <li>Valid for orders being shipped within the continental U.S.</li>
+      <li>Offer is combinable with online promotions and sales.</li>
+    </ul></div>
+     <!-- end of free shipping -->
+     
+
+<!-- fairtrade -->
+<div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq1" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>FAIRTRADE</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq1">
+      <br>
+      All of our merchandise is Fair Trade Certified products. So you can know that in supporting your school, you are also supporting the fair treatment of others.
+    </div>
+   
+    
+    <!-- end of fairtrade -->
+    
+    <!-- online order -->
+  <div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq2" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>ONLINE ORDER CUSTOMER SERVICE</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq2">
+      <br>
+      <a href="tel:8018638690" style="color: #275d38;">Phone: 801-863-8690</a>
+      <p>Hours: Monday-Friday 8:00 am-5:00 pm</p>
+    </div>
+   
+    <!-- end of online orders -->
+    
+    
+<!-- Payment Options -->
+<div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq3" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>PAYMENT OPTIONS</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq3">
+ <div class="container1">
+        <div class="column1">
+          <br>
+            <p>We accept the following standard methods:</p>
+            <ul>
+                <li>Visa</li>
+                <li>MasterCard</li>
+                <li>Discover</li>
+                <li>American Express</li>
+                <li>UVU Greenbucks</li>
+                <li>Redeem a Rally the Valley gift certificate</li>
+            </ul>
+        
+        </div>
+        <div class="column1">
+          <br>
+            <p>The following are only accepted in store:</p>
+            <ul>
+                <li>Apple Pay</li>
+                <li>Google Pay</li>
+                <li>Venmo</li>
+                <li>Paypal</li>
+                <li>Cash</li>
+            </ul>
+            <p>We do not accept checks.</p>
+        </div>
+    </div>
+    </div>
+   
+    <!-- end of payment options -->
+    
+
+
+  <!-- Privacy policies -->
+  <div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq12" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>PRIVACY POLICY</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq12">
+     <br>
+      The UVU Store is committed to protecting the privacy of our customers. The information collected is used solely for processing your order. All information you provide to us electronically is kept confidential and will not be applied in ways to which you have not consented. We will not sell or disclose any information that identifies you to a third party. We also collect information about your use of our site through the application of “cookies.” This information helps us customize our website and allows us to statistically monitor how many people are using our site and for what purpose. Encryption is used for the transfer of data. Unfortunately, no data transmission over the internet can be 100 percent secure. As a result, while we strive to protect your personal information, we cannot guarantee or warrant the security of any information you transmit to or from our websites.
+    </div>
+      <!-- end of Privacy policies -->
+  </div>
+</body>
+</html>
