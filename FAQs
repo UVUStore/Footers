@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+body h1 {
+  color: #275d38;
+  font-weight: bold;
+}
+
+body h4 {
+  color: #275d38;
+}
+
+body h5 {
+  color: #275d38;
+}
+body p{
+      font-size:15px;
+    }
+
+.ptag {
+    padding-left:15px;
+    padding-top:0px;
+}
+  .ptag h2 {
+      font-weight:500;
+      font-size: 18px;
+      padding: 2px;
+      padding-left:0;
+}
+.drop h2 {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 2px 0; /* Adjusted for shorthand padding */
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0 0 0;
+     transition: background-color 0.13s ease;
+}
+.facets-faceted-navigation-item-color-facet-group-expander-icon{
+  padding: 15px; 
+}
+.drop h2:hover{
+  background-color:#d6d6d6;
+}
+
+.ptag li {
+  margin:0px !important;
+  list-style-type:disc !important;
+  font-size:15px;
+}
+
+.ptag ul {
+  margin-top:0px !important;
+}
+
+  .ptag {
+      padding: 0 25px;
+      margin:0 !important;
+    }
+ 
+    .ptag hr {
+      margin:15px 0;
+    }
+    
+    .inner-text {
+  margin: 0 20px;
+}
+    
+  </style>
+</head>
+<body>
+  <div class="ptag">
+<h1>FAQ</h1>
+<hr>
+
+<h2>For further inquiries not provided, please reach out to us at <a href="mailto:store@uvu.edu" style="color:#275d38;">store@uvu.edu</a>.</p>
+
+<div class="drop">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq2" data-type="collapse"><div class="faq-header">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>GENERAL HOURS OF OPERATION</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq2">
+      <br>
+      
+        <p><strong>Fall and Spring Hours:</strong> Monday - Thursday 7:30 am - 6:00 pm; Fri 7:30 am - 5:00 pm; Closed Saturday
+        <br>CB Scoops: Monday - Friday 8 am – 2:00 pm; Closed Saturday</p>
+        
+       <p><strong>Summer Hours:</strong> Monday - Friday 8:00 am - 5:00 pm; Closed Saturday
+        <br>CB Scoops: Monday - Friday 9:00 am - 2 pm; Closed Saturday</p>
+      
+        <p><strong>Holiday Hours:</strong>  Reduced hours during Student breaks. Check our social media accounts for exact hours. Instagram:<a href="https://www.instagram.com/uvucampusstore/" target="_blank" rel="noopener noreferrer" style="color:#275d38;"> @uvucampusstore</a> Facebook:<a href="https://www.facebook.com/UVUCampusStore" target="_blank" rel="noopener noreferrer" style="color:#275d38;"> UVU Campus Store </a>
+    <br>
+    Closed on all Campus Closures. See <a href="https://www.uvu.edu/pace/events/" target="_blank" rel="noopener noreferrer" style="color:#275d38;"> uvu.edu/pace/events/</a> or <a href="https://www.uvu.edu/schedule/" target="_blank" rel="noopener noreferrer" style="color:#275d38;"> uvu.edu/schedule/</a></p>
+    </div>
+
+    
+    
+       
+    <div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq1" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>FACTS ABOUT THE UVU STORE</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq1">
+      <br>
+       <ul class="facts">
+         
+        <li>We are the official store for UVU!</li>
+        <li>All of our merchandise is Fair Trade Certified.</li>
+        <li>All UVU Store profits benefit UVU Campus and Students.</li>
+        <li>The UVU Store provides jobs to students.</li>
+    </ul>
+    </div>
+    
+    
+   
+  <div class="faq-header">
+     <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq5" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>PRICING</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq5">
+      <br>
+      <p>The UVU Campus Store is your #1 authorized retailer for official UVU products because the value comes from products being properly trademark-licensed, we require manufacturers to have fair trade and labor standards, and we ensure that all licensed product royalties come back to the university to help UVU students.</p>
+    </div>
+   
+    
+    <div class="faq-header">
+     <a href="#" class="collapsed" data-toggle="collapse" data-target="#faq4" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+      <h2>THE LOYALTY PROGRAM</h2>
+    </a></div>
+    <div class="collapse inner-text" id="faq4">
+      <br>
+      <p>Use your UVU ID to <a href="#loyalty" rel="noopener noreferrer" style="color:#35712c;">sign up</a> for the Loyalty program and for every purchase in store and online you will acquire points that can be used as money off on your next purchase. </p>
+    </div>
+</div>
+      </div>
+ 
+</body>
+</html>
