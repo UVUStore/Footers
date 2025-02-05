@@ -1,0 +1,159 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <style> 
+
+   
+
+  
+
+  
+
+body h1 { 
+
+  color: #275d38; 
+
+  font-weight: bold; 
+
+} 
+
+body h4, body h5, body h3 { 
+
+  color: #275d38; 
+
+} 
+
+body p { 
+
+  font-size: 15px; 
+
+} 
+
+.loyal { 
+
+  padding-bottom:5px; 
+
+} 
+
+  
+
+.ptag { 
+
+   padding-left: 15px; 
+
+} 
+
+.ptag li { 
+
+  margin: 0px !important; 
+
+} 
+
+.convert { 
+
+      padding-top: 10px; 
+
+      padding-bottom: 10px; 
+
+    } 
+
+.ptag { 
+
+      padding: 0 25px; 
+
+      margin:0 !important; 
+
+    } 
+
+  
+
+  
+
+  
+
+  </style> 
+
+</head> 
+
+<body> 
+
+<div class="ptag"> 
+
+  <h1>Valley Rewards Program</h1> 
+
+<hr> 
+
+<h3 class="loyal">How to sign in</h3> 
+
+  
+
+  <p> <a href="https://store.uvu.edu/scs/checkout.ssp?is=login&login=T&fragment=login-register&_ga=2.87509531.208849761.1729522202-1256938281.1688998364#login-register" target="_blank" rel="noopener noreferrer" style="color:#275d38;">Login</a> with Single Sign On, you can view your Valley Points under Profile and Loyalty. Build your points with each purchase at the UVU Store and Scoops. When you have collected enough points you may redeem a Rally the Valley gift certificate online in your store profile and use the code emailed to you either online or at the register. For more information on redeeming a Rally the Valley gift certificate please follow the steps listed in the "To redeem your Valley Points" section.</p> 
+
+   
+
+<h3 class="loyal">Valley Points Breakdown</h3> 
+
+  
+
+<p>Scoops and Merch 1 point to every $1. 
+
+<br>Wolverine Tech 1 point to every $7. 
+
+<br>Refer a friend for 20 points. 
+
+<br>Include your birthday for 20 points.</p> 
+
+   
+
+  <h3 class="loyal">To redeem your Valley points first create a Rally the Valley gift certificate online:</h3> 
+
+    <ol class="points"> 
+
+      <li>Single Sign-on with your UVID at <a href="https://store.uvu.edu/" target="_blank" rel="noopener noreferrer" style="color:#275d38;">store.uvu.edu</a>.</li> 
+
+      <li>Click on your name in the top right of the screen and then select profile information.</li> 
+
+      <li>Click on Loyalty Rewards.</li> 
+
+      <li>Select Generate Gift Card.</li> 
+
+      <li>You must select points to redeem in increments of 150.</li> 
+
+       
+
+    <div class="convert"> 
+
+    <h5>150 points = $5</h5> 
+
+    <h5>300 points = $10</h5> 
+
+    <h5>450 points = $15</h5> 
+
+    <h5>600 points = $20 plus you receive an automatic extra 150 points ($5) bonus when you hit 600 points.</h5> 
+
+  </div> 
+
+       
+
+      <li>Type your email address.</li> 
+
+      <li>Press generate gift card.</li> 
+
+      <li>Present your code which you received in an email to the cashier at the UVU Store.</li> 
+
+      </ol> 
+
+   
+
+</div> 
+
+</body> 
+
+</html> 
