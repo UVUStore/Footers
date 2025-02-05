@@ -1,0 +1,480 @@
+<style>
+ 
+  .hero{
+    width:vw;
+    height:auto;
+    background-color:#359350;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    position: relative;
+   
+    
+    
+    
+  }
+  .text1{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    margin-left:auto;
+    margin-right:auto;
+    height:600px;
+    
+    
+  }
+.text1 h1, .text1 h2, .text1 p {
+    color: #fff;
+    max-width:500px;
+}
+.logo {
+   max-width:300px;
+   margin-bottom:10px;
+}
+.text1 h1 {
+  font-family:lato;
+  font-weight:500;
+  font-size:36px;
+
+}
+.text1 h2 {
+  /*font-family: ;*/
+  line-height:1.2;
+  font-size:32px;
+  font-weight:800;
+ /* color:#275d38;
+  background-color:#bcecac;
+  padding:10px; */
+  max-width:350px;
+}
+.text1 p {
+  font-size:1.3rem;
+}
+  
+.img1 {
+    display:block;
+    position: absolute;
+    right:0;
+    width: auto;
+    height: 600px;
+    max-width:500px;
+ 
+}
+  .title{
+    text-align:center; 
+    font-weight:400;
+    color:#275d38;
+    margin:85px 0 30px 0;
+    
+  }
+  .getstart{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:0 60px;
+    
+  
+  }
+  
+  #step1, #step2, #step3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    max-width:300px;
+    margin:0 10px;
+   
+  }
+  
+  #step1 h2, #step2 h2, #step3 h2 {
+    margin:5px;
+  }
+  
+  .pointsbrk-box {
+    background-color:#e5e5e5;
+    border-radius:5px;
+    max-width:800px;
+    margin:auto;
+    
+    
+  }
+  
+  .pointsbrk {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:20px 20px 0 20px;
+    
+  }
+  
+   .pointsbrk div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 0 10px;
+    
+  }
+  
+  .pointsbrk-box h5 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-bottom:20px;
+    color:#275d38;
+    margin:10px;
+    
+    
+    
+  }
+  
+  .circle {
+    color:#fff;
+    font-family:oswald;
+    padding: 10px;
+    font-weight: 700;
+    background-color:#275d38;
+    border-radius:30px;
+    width:50px;
+    height:50px;
+  }
+  
+  /*dropdowns*/
+  
+  
+    .collapse {
+      display: none;
+    }
+
+    .collapse.show {
+    display: block;
+    }
+    .drop{
+      width:75%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-bottom:40px;
+  
+    }
+    .drop h2 {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 2px 0; 
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0 0 0;
+     transition: background-color 0.13s ease;
+}
+.facets-faceted-navigation-item-color-facet-group-expander-icon{
+  padding: 15px; 
+}
+.drop h2:hover{
+  background-color:#d6d6d6;
+}
+.ptag ul {
+  margin:0px !important;
+  list-style-type:disc !important;
+  font-size:15px;
+}
+
+.ptag ul {
+  margin-top:0px !important;
+}
+
+  .ptag {
+      padding: 0 25px;
+      margin:0 !important;
+    }
+ 
+    .ptag hr {
+      margin:15px 0;
+    }
+    
+    .inner-text {
+  margin: 0 20px;
+}
+@media (max-width: 1100px) /*medium screens*/
+{
+  
+   .img1 {
+    display:block;
+    position: absolute;
+    right:0;
+    width: auto;
+    height: 400px;
+    max-width:300px;
+   
+    }
+    
+    
+    
+   .hero{
+    width:vw;
+    height:auto;
+    background-color:#359350;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    position: relative;
+   
+    
+    
+    
+  }
+  .text1{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    margin-left:auto;
+    margin-right:auto;
+    height:400px;
+  }
+.text1 h1, .text1 h2, .text1 p, .logo {
+    color: #fff;
+    width:100%;
+    max-width:250px;
+   
+    
+
+}
+
+
+
+.text1 h1 {
+  font-family:lato;
+  font-weight:500;
+  font-size:26px;
+}
+.text1 h2 {
+ line-height:1.3;
+  font-size:20px;
+  font-weight:600;
+}
+
+.text1 p{
+  font-size:1.1rem;
+}
+.logo {
+  width:250px;
+
+}
+
+ .drop{
+      width:90%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    
+  
+  
+  
+}
+
+  @media (max-width: 600px) /*Small screens*/
+  {
+    .img1 {
+    display:block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+   
+    }
+    
+    
+    
+     .hero{
+    width:vw;
+    height:auto;
+    background-color:#359350;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+   
+ 
+  }
+  .text1{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    margin: 40px 20px;
+    height:auto;
+    
+    
+  }
+.text1 h1, .text1 h2, .text1 p, .logo {
+    color: #fff;
+    width:100%;
+    max-width:200px;
+    text-align:center;
+    
+
+}
+.text1 div {
+margin:auto;
+  
+}
+
+
+.text1 h1 {
+  font-family:lato;
+  font-weight:500;
+  font-size:18px;
+}
+.text1 h2 {
+
+  font-size:16px;
+  font-weight:600;
+}
+
+.text1 p{
+  font-size:14px;
+}
+.logo {
+  width:175px;
+
+}
+
+ .drop{
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    
+  } 
+  
+</style>
+<body>
+  
+  <div>
+  <div class="hero">
+    <section class="text1">
+      <div>
+      <img class="logo" src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_AssetImages/UVUStore-SideStack-White.png">
+      <h1>Loyalty Program </h1>
+      
+      </div>
+      <!--<h2>EVERY PURCHASE BRINGS YOU CLOSER TO REWARDS</h2> -->
+      
+       <section class="img1">
+     <img src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_AssetImages/loyaltygrid.png">
+    </section>
+    <div>
+      <h2>Every purchase brings you closer to rewards.</p>
+      <!-- <p>Earn points with every purchase at the UVU Store and redeem them for gift vouchers. Start collecting today!</p> -->
+      </div>
+    </section>
+    
+   
+    
+        
+    
+  </div>
+  
+  
+ <h2 class="title">How to Get Started</h2>
+  <div class="getstart">
+
+   <section id="step1">
+      <h2 class="circle">1</h2>
+      <h2>Log in</h2>
+      <p>Log in here with your UVUID.</p>
+      </section>
+
+ <section id="step2">
+      <h2 class="circle">2</h2>
+      <h2>Earn Valley Points</h2>
+      <p>Earn points with every purchase.</p>
+      </section>
+      
+    <section id="step3">
+     <h2 class="circle">3</h2>
+      <h2>Claim Your Voucher</h2>
+      <p>See FAQ for more details.</p>
+      
+      </section>
+      
+       <section id="step3">
+     <h2 class="circle">4</h2>
+      <h2>Shop and Save</h2>
+      <p>Spend your rewards on what you love.</p>
+      
+      </section>
+  </div>
+  
+   <h2 class="title">Valley Points Breakdown</h2>
+   <div class="pointsbrk-box">
+   <div class="pointsbrk">
+  <div>
+    <h3>150 pts</h3>
+        <p>$5</p>
+  </div>
+  
+  <div>
+    <h3>300 pts</h3>
+        <p>$10</p>
+  </div>
+  
+  <div>
+    <h3>450 pts</h3>
+        <p>$15</p>
+  </div>
+  
+  <div>
+    <h3>600 pts</h3>
+        <p>$20</p>
+  </div>
+   
+  </div>
+    <h5>*You receive an extra 150 bonus points ($5) automaticly when you hit 600 points.</h5>
+
+  </div>
+ 
+  
+  
+  <h2 class="title">FAQs</h2>
+  
+  <div class="drop">
+    
+      <div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faqE" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+   <h2>How do I log into my account?</h2>
+    </a>
+    </div>
+    <div class="collapse inner-text" id="faqE">
+      <br>
+      <p>The login button is at the top right of the page. You can now sign in with your UVID. If you have issues with your One-Time UVID login, email the <a href="mailto:store@uvu.edu" style="color:#275d38;">store@uvu.edu</a>.</p>
+   </div>
+   
+     <div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faqB" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+   <h2>How do I check my points balance?</h2>
+    </a>
+    </div>
+    <div class="collapse inner-text" id="faqB">
+      <br>
+      <p>To view your points, navigate to your account by clicking on your name in the top menu. Then click on 'Purchase History', under purchases. Under 'My Account'. 'Loyalty Rewards' will be at the bottom. Expand 'Loyalty Rewards' and click 'Loyalty Earned History'. Your points history will be shown.</p>
+   </div>
+   
+   
+    
+       <div class="faq-header">
+    <a href="#" class="collapsed" data-toggle="collapse" data-target="#faqD" data-type="collapse">
+      <i class="facets-faceted-navigation-item-color-facet-group-expander-icon"></i>
+   <h2>How do I claim my voucher?</h2>
+    </a>
+    </div>
+    <div class="collapse inner-text" id="faqD">
+      <br>
+      <p>Under the Loyalty Reward dropdown, click “Generate Gift Card”. Once there, you can choose how many points to redeem and where to email the certificate. Please remember the email you input and check your spam folder if the email has not been received. Once you have generated a gift card, give the code to the cashier at the time of purchase.</p>
+   </div>
+   </div>
+  
+</body>
